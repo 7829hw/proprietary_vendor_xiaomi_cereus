@@ -1,0 +1,8 @@
+##LogProxyInVendor tool
+#on boot
+service loghidlvendorservice /vendor/bin/loghidlvendorservice
+    
+    class hal
+    class main
+    disabled
+
