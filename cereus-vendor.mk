@@ -45,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cereus/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
     vendor/xiaomi/cereus/proprietary/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
     vendor/xiaomi/cereus/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
+    vendor/xiaomi/cereus/proprietary/vendor/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.dm \
+    vendor/xiaomi/cereus/proprietary/vendor/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.pm \
     vendor/xiaomi/cereus/proprietary/vendor/bin/libccu_cereus_imx486_sunny_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_imx486_sunny_mipi_raw.dm \
     vendor/xiaomi/cereus/proprietary/vendor/bin/libccu_cereus_imx486_sunny_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_imx486_sunny_mipi_raw.pm \
     vendor/xiaomi/cereus/proprietary/vendor/bin/libccu_cereus_ov12a10_ofilm_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_ov12a10_ofilm_mipi_raw.dm \
@@ -470,6 +472,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cereus/proprietary/vendor/firmware/soc1_0_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1_1_hdr.bin \
     vendor/xiaomi/cereus/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
+    vendor/xiaomi/cereus/proprietary/vendor/lib/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib/cereus_imx486_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_imx486_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib/cereus_ov12a10_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_ov12a10_ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib/cereus_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yx_ofilm_mipi_raw_tuning.so \
@@ -708,6 +711,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cereus/proprietary/vendor/lib64/cactus_ov13855_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_ov13855_ofilm_mipi_raw_IdxMgr.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib64/cactus_s5k3l8_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_s5k3l8_sunny_mipi_raw_IdxMgr.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/cereus/proprietary/vendor/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib64/cereus_imx486_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_imx486_sunny_mipi_raw_IdxMgr.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib64/cereus_imx486_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_imx486_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/cereus/proprietary/vendor/lib64/cereus_ov12a10_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_ov12a10_ofilm_mipi_raw_IdxMgr.so \
