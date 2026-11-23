@@ -126,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cereus/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/xiaomi/cereus/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/xiaomi/cereus/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
-    vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
@@ -415,8 +414,6 @@ PRODUCT_PACKAGES += \
     libGLESv1_CM_mtk \
     libGLESv2_mtk \
     libMEOW_trace \
-    android.hardware.audio.effect@5.0-impl \
-    android.hardware.audio@5.0-impl-mediatek \
     android.hardware.bluetooth.audio@2.0-impl-mediatek \
     android.hardware.bluetooth@1.0-impl-mediatek \
     android.hardware.light@2.0-impl-mediatek \
@@ -830,7 +827,6 @@ PRODUCT_PACKAGES += \
     fuelgauged \
     fuelgauged_nvram \
     gsm0710muxd \
-    android.hardware.audio@5.0-service-mediatek \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.bluetooth@1.0-service-mediatek \
     android.hardware.drm@1.2-service.widevine \
