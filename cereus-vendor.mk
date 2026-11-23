@@ -426,7 +426,6 @@ PRODUCT_PACKAGES += \
     kmsetkey.mt6765 \
     power.mt6765 \
     sound_trigger.primary.mt6765 \
-    thermal.mt6765 \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.mms@1.5-impl \

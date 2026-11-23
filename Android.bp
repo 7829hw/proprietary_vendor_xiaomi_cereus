@@ -1260,48 +1260,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "thermal.mt6765",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/thermal.mt6765.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/thermal.mt6765.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice@1.1-impl",
     owner: "xiaomi",
     strip: {
