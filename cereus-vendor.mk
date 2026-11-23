@@ -414,11 +414,9 @@ PRODUCT_PACKAGES += \
     libGLESv1_CM_mtk \
     libGLESv2_mtk \
     libMEOW_trace \
-    android.hardware.bluetooth.audio@2.0-impl-mediatek \
     android.hardware.bluetooth@1.0-impl-mediatek \
     android.hardware.light@2.0-impl-mediatek \
     android.hardware.power@1.3-impl-mediatek \
-    audio.bluetooth.default \
     audio.primary.mt6765 \
     audio.r_submix.mt6765 \
     audio.usb.mt6765 \
@@ -473,7 +471,6 @@ PRODUCT_PACKAGES += \
     libaurisysdemo \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
-    libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
