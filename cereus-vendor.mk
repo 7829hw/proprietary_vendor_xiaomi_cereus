@@ -398,8 +398,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cereus/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio.common-util \
-    android.hardware.audio.common@5.0-util \
     cactus_s5k5e8yx_ofilm_mipi_raw_tuning \
     cereus_imx486_sunny_mipi_raw_tuning \
     cereus_ov12a10_ofilm_mipi_raw_tuning \
@@ -603,7 +601,7 @@ PRODUCT_PACKAGES += \
     libh264dec_se.ca7 \
     libh264enc_sa.ca7 \
     libmhalImageCodec \
-    libmnl \
+    libmnl_mtk \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
     libstorage_otp \
