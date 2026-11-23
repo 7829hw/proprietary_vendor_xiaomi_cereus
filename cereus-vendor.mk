@@ -129,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
-    vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service-mediatek.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/xiaomi/cereus/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
@@ -414,7 +413,6 @@ PRODUCT_PACKAGES += \
     libGLESv2_mtk \
     libMEOW_trace \
     android.hardware.bluetooth@1.0-impl-mediatek \
-    android.hardware.light@2.0-impl-mediatek \
     android.hardware.power@1.3-impl-mediatek \
     audio.primary.mt6765 \
     audio.r_submix.mt6765 \
@@ -426,7 +424,6 @@ PRODUCT_PACKAGES += \
     keystore.mt6765 \
     kmsetkey.default \
     kmsetkey.mt6765 \
-    lights.mt6765 \
     memtrack.mt6765 \
     power.mt6765 \
     sound_trigger.primary.mt6765 \
@@ -824,7 +821,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.bluetooth@1.0-service-mediatek \
     android.hardware.gnss@2.0-service-mediatek \
-    android.hardware.light@2.0-service-mediatek \
     android.hardware.sensors@2.0-service-mediatek \
     android.hardware.usb@1.1-service-mediatek \
     android.hardware.wifi@1.0-service-lazy-mediatek \
