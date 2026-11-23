@@ -424,7 +424,6 @@ PRODUCT_PACKAGES += \
     keystore.mt6765 \
     kmsetkey.default \
     kmsetkey.mt6765 \
-    memtrack.mt6765 \
     power.mt6765 \
     sound_trigger.primary.mt6765 \
     thermal.mt6765 \
