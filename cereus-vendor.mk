@@ -444,7 +444,6 @@ PRODUCT_PACKAGES += \
     libTEECommon \
     lib_iir \
     lib_speech_enh \
-    libaedv \
     libakl \
     libasn1c_core \
     libasn1c_mapi \
@@ -495,7 +494,6 @@ PRODUCT_PACKAGES += \
     libipsec_ims_shr \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libladder \
     libmemtrack_GL \
     libmmprofile \
     libmnetlink_v104 \
