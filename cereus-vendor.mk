@@ -397,6 +397,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cereus/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 
 PRODUCT_PACKAGES += \
+    android.hardware.drm-service.widevine \
+    libwvaidl \
     cactus_s5k5e8yx_ofilm_mipi_raw_tuning \
     cereus_imx486_sunny_mipi_raw_tuning \
     cereus_ov12a10_ofilm_mipi_raw_tuning \
